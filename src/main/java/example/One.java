@@ -7,8 +7,4 @@ public class One {
         return message;
     }
 
-    public void uncoveredMethod() {
-        System.out.println(foo());
-    }
-
 }
