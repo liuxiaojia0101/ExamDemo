@@ -106,7 +106,7 @@ public class ScheduleTest
         int actual = schedule.init();
         actual = schedule.registerNode(1);
         actual = schedule.addTask(1, 10);
-        actual = schedule.addTask(1, 10);
+        actual = schedule.addTask(2, 10);
         Assert.assertEquals(ReturnCodeKeys.E010, actual);
     }
     
